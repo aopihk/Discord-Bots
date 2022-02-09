@@ -4,11 +4,11 @@ from datetime import datetime, timedelta
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 degreeSign = u"\N{DEGREE SIGN}"
-OpenWeatherKey = "30d8c43f0d2614036e2957739678963a"
+OpenWeatherKey = ""
 
 #discord configuration w/ API
 #this requires a valid discord token that is provided when you register the bot with Discord
-TOKEN = 'OTQxMDM2NzM1ODY4MDQzMzE1.YgQGwQ.Yb-_W8DSw533XjwoWflrF8fs6Nw'
+TOKEN = ''
 SERVER = 'BotTestingGround'
 
 client = discord.Client()
